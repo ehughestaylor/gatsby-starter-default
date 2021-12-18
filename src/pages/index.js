@@ -4,8 +4,12 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Navbar from "../components/Navbar.js"
 
 const IndexPage = () => (
+  <section>
+    <Navbar />
+  </section>
   <Layout>
     <Seo title="Home" />
     <h1>Hi people</h1>
